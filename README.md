@@ -1,14 +1,17 @@
 # ps3_kara
-Kara, a Karaoke game
+Игра-караоке, версия под HEN
 
-use USB microphones to sing to your own tunes.
+используйте USB-микрофоны, чтобы петь под свою музыку.
 
-note that the videos you want to use should be copied in a folder called 'videos' on a FAT32 formatted USB drive.
-if you intend to use videos with no lyrics embedded in the stream, you can use SRT-type subtitles to add the lyrics in sync with the video.
+Обратите внимание, что видео, которые вы хотите использовать, следует скопировать в папку «видео» на USB-накопителе с файловой системой FAT32. Если вы собираетесь использовать видео без встроенных в поток текстов, вы можете использовать субтитры типа SRT, чтобы синхронизировать тексты с видео.
 
-very important: there is a limitation to the video format which can be used for playback: 720p MP4 videos ONLY.
-use Avidemux (version 2.7.4) to prep your videos to the requirements: from 'Auto' menu, choose '720p', then from the left-side toolbox choose 'AAC (lav)' for Audio and 'MP4 Muxer' for Output Format (Video Format should already be set to 'MPEG4 AVC (x264)' so don't touch it unless you know what you're doing).
+очень важно: существует ограничение на формат видео, который можно использовать для воспроизведения: ТОЛЬКО видео 720p MP4. 
+используйте например [Avidemux](https://sourceforge.net/projects/avidemux/files/latest/download), чтобы подготовить видео к требованиям: 
+в меню «Авто» выберите «psp», 
+Должно получиться:
 
-USE AT YOUR OWN RISK! and Enjoy!
+- Формат видео: «MPEG4 AVC (x264)». (в настройках фильтра выберите psp)
+- «AAC (lav)» для аудио 
+- «MP4 Muxer» для вывода. 
 
-Icon made by Freepic from www.flaticon.com
+
